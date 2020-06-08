@@ -1,35 +1,13 @@
-## Welcome to GitHub Pages
+## Selamat datang di Website dari Github Pages buatan Muhammad Aditya!
 
-Selamat datang di Website dari Github Pages buatan Muhammad Aditya!
+NPM : 1806147054
+Mata kuliah Sistem Operasi (CSGE602055) kelas C
+dengan bimbingan pak Rahmat Samik Ibrahim
 
-### Markdown
+### About Me
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Website ini merupakan hasil pengetahuan baru saya mengenai membuat webiste menggunakan Github Pages disertai dengan Jekyll.
+Webiste ini juga bertujuan untuk menjadi syarat untuk menyelesaikan Ujian Akhir Semester mata kuliah Sistem Operasi.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aditmuhmd/os201/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### New knowledge
+Untuk kalian yang ingin juga belajar mengenai Sistem Operasi seperti saya, bisa mengunjungi [URLs](url.md)
