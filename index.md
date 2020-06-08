@@ -1,10 +1,9 @@
-## Selamat datang di Website saya
-Muhammad Aditya
+### Selamat datang di Website saya
+# Muhammad Aditya
 
-1806147054
+# 1806147054
 
-Mata kuliah Sistem Operasi (CSGE602055) kelas C
-dengan bimbingan pak Rahmat Samik Ibrahim
+# Mata kuliah Sistem Operasi (CSGE602055) kelas C dengan bimbingan pak Rahmat Samik Ibrahim
 
 ### About Me
 
