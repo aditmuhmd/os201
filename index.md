@@ -1,6 +1,8 @@
-## Selamat datang di Website dari Github Pages buatan Muhammad Aditya!
+## Selamat datang di Website saya
+Muhammad Aditya
 
-NPM : 1806147054
+NPM: 1806147054
+
 Mata kuliah Sistem Operasi (CSGE602055) kelas C
 dengan bimbingan pak Rahmat Samik Ibrahim
 
