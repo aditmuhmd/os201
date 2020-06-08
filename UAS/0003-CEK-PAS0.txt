@@ -1,4 +1,4 @@
-Script started on Mon 08 Jun 2020 17:01:13 PM WIB
+Script started on Mon 08 Jun 2020 05:01:13 PM WIB
 muhammad.aditya81@badak:~$ PS1="$ "
 $ echo $GitHubUser
 aditmuhmd
@@ -27,4 +27,4 @@ gpg: Good signature from "Muhammad Aditya (aditmuhmd) <aditmuhammad06@gmail.com>
 200608-170255-f0e2-muhammad.aditya81/> exit
 exit
 
-Script done on Mon 08 Jun 2020 17:03:00 PM WIB
+Script done on Mon 08 Jun 2020 05:03:00 PM WIB
