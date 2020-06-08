@@ -1,7 +1,7 @@
 ## Selamat datang di Website saya
 Muhammad Aditya
 
-NPM: 1806147054
+1806147054
 
 Mata kuliah Sistem Operasi (CSGE602055) kelas C
 dengan bimbingan pak Rahmat Samik Ibrahim
