@@ -8,18 +8,18 @@ echo $PSTAMP
 
 eval $PSTAMP
 
-PS1="\$(eval \$PSTAMP)"muhammad.aditya81@badak:~$
-muhammad.aditya81@badak:~$ PS1="$ "
-$
+PS1="\$(eval \$PSTAMP)"]0;muhammad.aditya81@badak: ~muhammad.aditya81@badak:~$ 
+]0;muhammad.aditya81@badak: ~muhammad.aditya81@badak:~$ PS1="$ "
+$ 
 $ echo $GitHubUser
 aditmuhmd
-$
+$ 
 $ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
-$
+$ 
 $ eval $PSTAMP
-200603-092254-abcd-muhammad.aditya81/>
-$
+200603-092254-abcd-muhammad.aditya81/> 
+$ 
 $ PS1="\$(eval \$PSTAMP)"
 200603-092300-ae4d-muhammad.aditya81/> date
 Wed Jun  3 09:23:13 WIB 2020
