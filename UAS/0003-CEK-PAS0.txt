@@ -1,31 +1,0 @@
-Script started on Mon 08 Jun 2020 05:01:13 PM WIB
-]0;muhammad.aditya81@badak: ~muhammad.aditya81@badak:~$ PS1-"[K[K="$ "
-$ echo $GitHubUser
-aditmuhmd
-$ echo $PSTAMP
-TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
-$ PS1="\$(eval \$PSTAMP)"
-200608-170158-9f1d-muhammad.aditya81/> ls -F
-0000-mypub.txt       [0m[01;32ma.out[0m*    ls          [01;32mprogram3[0m*       timestampuas
-0001-mytest.txt      coba.txt  mykey.asc   program3.c      [01;34mw02-enkripsi[0m/
-0002-mytest.txt.asc  [01;34mDemos[0m/    [01;32mprogram2[0m*   [01;32mquiz[0m*           W04-log.txt
-0003-CEK-PAS0.txt    gpg2      program2.c  QuizWeek06-1.c  week04.txt
-200608-170204-ab03-muhammad.aditya81/> sha1sum 0000-mypub.txt 0001-mytest.txt 00 02-mytest.txt.asc > SHA1SUM[K[A200608-170204-ab03-muhammad.aditya81/> sha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt.asc > SHA1SUM[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt.asc > SHA1SUM
-200608-170221-0850-muhammad.aditya81/> sha1sum -c SHA1SUM][K
-0000-mypub.txt: OK
-0001-mytest.txt: OK
-0002-mytest.txt.asc: OK
-200608-170230-e923-muhammad.aditya81/> gpg2 -sb -a SHA1SUM
-
-You need a passphrase to unlock the secret key for
-user: "Muhammad Aditya (aditmuhmd) <aditmuhammad06@gmail.com>"
-4096-bit RSA key, ID 975BAA50, created 2020-06-03
-
-[?1049h[1;44r(B[m[4l[?7h[?1h=[39;49m[39;49m[H[2J(B[m[17;36H(0[0mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk(B(B[m[18;36H(0[0mx(B[0m Please enter the passphrase to unlock the secret key for the OpenPGP certificate:  (0[0mx(B(B[m[19;36H(0[0mx(B[0m "Muhammad Aditya (aditmuhmd) <aditmuhammad06@gmail.com>"[19;121H(0[0mx(B(B[m[20;36H(0[0mx(B[0m 4096-bit RSA key, ID 975BAA50,[20;121H(0[0mx(B(B[m[21;36H(0[0mx(B[0m created 2020-06-03.[21;121H(0[0mx(B(B[m[22;36H(0[0mx(B(B[m[22;121H(0[0mx(B(B[m[23;36H(0[0mx(B(B[m[23;121H(0[0mx(B(B[m[24;36H(0[0mx(B[0m Passphrase _______________________________________________________________________ (0[0mx(B(B[m[25;36H(0[0mx(B(B[m[25;121H(0[0mx(B(B[m[26;36H(0[0mx(B(B[m[26;49H(0[0m(B[0m<OK>[26;103H<Cancel>[26;121H(0[0mx(B(B[m[27;36H(0[0mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj(B(B[m[24;49H(0[0m(B(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m[44;1H[?1049l[?1l>200608-170246-6347-muhammad.aditya81/> gpg2 --verify SHA1SUM.asc
-gpg: assuming signed data in 'SHA1SUM'
-gpg: Signature made Mon 08 Jun 2020 05:02:46 PM WIB using RSA key ID 975BAA50
-gpg: Good signature from "Muhammad Aditya (aditmuhmd) <aditmuhammad06@gmail.com>" [ultimate]
-200608-170255-f0e2-muhammad.aditya81/> exit
-exit
-
-Script done on Mon 08 Jun 2020 05:03:00 PM WIB
